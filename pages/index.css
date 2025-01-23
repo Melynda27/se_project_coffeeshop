@@ -98,3 +98,33 @@
   font-size: 16px;
   line-height: 20px;
 }
+
+.nav__links:hover {
+
+}
+
+.recipes {
+  color: #fff;
+  background-color: #0a2750;
+  padding: 100px 80px 215px;
+}
+
+.recipes__title {
+  margin: 0 0 24px;
+}
+
+.recipes__subtitles {
+  margin: 0 0 80px;
+}
+
+.recipes__videos {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.recipes__video-caption {
+  display: flex;
+  justify-content: space-between;
+}
+
