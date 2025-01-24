@@ -131,6 +131,7 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  max-width: 438px;
 }
 
 
@@ -139,6 +140,14 @@
   justify-content: center;
   gap: 100px;
   list-style-type: none;
+  margin: 0 0 215px;
+}
+
+.recipes__iframe {
+  max-height: 273px;
+  max-width: 480px;
+  row-gap: 40px;
+  margin-bottom: 24px;
 }
 
 .recipes__video-caption {
@@ -149,4 +158,5 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
+  margin: 0
 }
