@@ -77,7 +77,6 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  list-style-type: none;
 }
 
 .nav__logo {
@@ -143,6 +142,7 @@
 }
 
 .recipes__iframe {
+  justify-content: center;
   height: 273px;
   width: 480px;
   row-gap: 40px;
