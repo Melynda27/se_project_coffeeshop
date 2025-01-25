@@ -60,6 +60,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  color: #6f6f6f;
 }
 
 .header__paragraph {
@@ -134,6 +135,7 @@
   gap: 100px;
   list-style-type: none;
   margin: 0 0 215px;
+  border-color: #838383;
 }
 
 .recipes__iframe {
