@@ -12,7 +12,7 @@
 .header {
   padding: 30px 80px 40px;
   background-color: #fff;
-  background-image: url(../image/background_header.svg);
+  background-image: url(../images/background_header.svg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -105,7 +105,7 @@
   color: #fff;
   background-color: #0a2750;
   padding: 100px 80px 215px;
-  background-image: url(../image/background_recipes.svg);
+  background-image: url(../images/background_recipes.svg);
   background-color: #0a2750;
   background-repeat: no-repeat;
   background-position: center;
