@@ -89,16 +89,19 @@
 
 .nav__links {
   display: flex;
-  justify-items: flex-end;
-  gap: 20px;
   list-style-type: none;
+  gap: 20px;
   padding: 0;
   margin: 0;
+}
+
+.nav__link {
   font-family: "Inter", "Arial", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  color: #000;
+  text-decoration: none;
 }
 
 .recipes {
@@ -141,8 +144,8 @@
 }
 
 .recipes__iframe {
-  max-height: 273px;
-  max-width: 480px;
+  height: 273px;
+  width: 480px;
   row-gap: 40px;
   margin-bottom: 24px;
 }
