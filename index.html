@@ -117,19 +117,23 @@
                   required
                 />
               </label>
-              <label for="guest count" class="form__label">
+              <label for="guest-count" class="form__label">
                 Number of guests *
-                <input class="form__input" type="number" required />
+                <input
+                  class="form__input"
+                  id="guest-count"
+                  type="number"
+                  required
+                />
               </label>
-              <label for="" class="form__label">
+              <label for="datetime-input" class="form__label">
                 Date & Time *
                 <input
                   class="form__input"
-                  id="guest count"
+                  id="datetime-input"
                   type="datetime-local"
-                  min="1"
-                  max="8"
-                  placeholder="1-8"
+                  min="2025-01-24T08:00"
+                  max="2025-12-31T23:59"
                   required
                 />
               </label>
@@ -146,13 +150,22 @@
             </fieldset>
             <button class="form__button">Book a table</button>
             <label for="agreed" class="form__label form__label_type_checkbox">
-              <input class="form__checkbox" id="agreed" type="checkbox" required />
+              <input
+                class="form__checkbox"
+                id="agreed"
+                type="checkbox"
+                required
+              />
               I agree with the terms of use
             </label>
           </form>
         </section>
-        <section id="menu" class="menu"></section>
-        <section class="about"></section>
+        <section id="menu" class="menu">
+          <h2>Our Menu</h2>
+        </section>
+        <section class="about">
+          <h2>About Us</h2>
+        </section>
       </main>
       <footer id="contacts" class="footer"></footer>
     </div>
