@@ -106,7 +106,7 @@
           <h2 class="reservation__title">Book a table</h2>
           <form class="reservation__form form">
             <fieldset class="form__fieldset">
-              <label form="name-input" class="form__label">
+              <label for="name-input" class="form__label">
                 Name *
                 <input
                   class="form__input"
@@ -116,27 +116,28 @@
                   required
                 />
               </label>
-              <label form="guest-count" class="form__label">
+              <label for="guest-count" class="form__label">
                 Number of guests *
                 <input
                   class="form__input"
                   id="guest-count"
                   type="number"
+                  min="1"
+                  max="8"
+                  placeholder="1-8"
                   required
                 />
               </label>
-              <label form="datetime-input" class="form__label">
+              <label for="datetime-input" class="form__label">
                 Date & Time *
                 <input
                   class="form__input"
                   id="datetime-input"
                   type="datetime-local"
-                  min="2025-01-24T08:00"
-                  max="2025-12-31T23:59"
                   required
                 />
               </label>
-              <label form="email" class="form__label">
+              <label for="email" class="form__label">
                 Your email *
                 <input
                   class="form__input"
@@ -148,7 +149,7 @@
               </label>
             </fieldset>
             <button class="form__button">Book a table</button>
-            <label form="agreed" class="form__label form__label_type_checkbox">
+            <label for="agreed" class="form__label form__label_type_checkbox">
               <input
                 class="form__checkbox"
                 id="agreed"
@@ -283,7 +284,7 @@
             </ul>
           </div>
         </div>
-        <p class="footer__copyright">&copy: 2025 Melynda Almy</p>
+        <p class="footer__copyright">&copy; 2025 Melynda Almy</p>
       </footer>
     </div>
   </body>
