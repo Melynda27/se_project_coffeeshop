@@ -39,11 +39,11 @@
     line-height: 20px;
     background-color: #1878dc;
     color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
   }
 
   .form__button:hover {
-    cursor: pointer;
-    transition: background-color 0.3s ease;
     background-color: #3f96f3;
   }
 
