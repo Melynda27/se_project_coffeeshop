@@ -1,13 +1,16 @@
 .header {
   padding: 30px 80px 40px;
+  box-sizing: border-box;
   background-color: #fff;
   background-image: url(../images/background_header.svg);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   height: 800px;
   display: flex;
   flex-direction: column;
+  z-index: 1;
 }
 
 .header__title {
@@ -42,6 +45,7 @@
   right: 5px;
   width: 646px;
   height: 568px;
+z-index: -1;
 }
 
 .header__footer {
