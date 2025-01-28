@@ -62,7 +62,7 @@
 }
 
 .form__label_type_checkbox {
-  width: 10px;
-  height: 10px;
-  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }

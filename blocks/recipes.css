@@ -31,8 +31,7 @@
   justify-content: center;
   gap: 40px;
   list-style-type: none;
-  margin: 0
-  border-color: #838383;
+  margin: 0;
 }
 
 .recipes__iframe {
