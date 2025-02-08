@@ -14,3 +14,4 @@ This is the second project of the Software Engineering program at TripleTen. It 
 ## Plan on improving the project
 
 Something that would make this really cool is adding a cute review section! That way, Triple Peaks Coffee Shop can share their customers' feedback with people who are interested in trying their food or drinks. Or, they could have a section where customers can vote on a "Flavor of the Week" for coffee. They could make it very interactive and maybe show percentages of how many individuals agree/disagree. It could be a really fun way to interact with customers and include their favorites, which could attract more customers and create hype in the long run.
+# se_project_spots
